@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Customer {
-    //Class Level Variables - Protect the data
+    // Class Level Variables - Protect the data
     private int customerId;
     private String customerName;
     private String customerPhoneNumber;
@@ -14,7 +14,7 @@ public class Customer {
         this. customerId = _customerId;  //Increments the ID count
     }
 
-        //Setters and Getters
+    // Setters and Getters
     public int getCustomerId() { return customerId; }
     public void setCustomerId(int _customerId) {this.customerId = _customerId;}
 

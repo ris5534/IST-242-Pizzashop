@@ -4,17 +4,17 @@ import java.util.ArrayList;
 
 public class Menu {
 
-    //Class Level Variables - Protect the data
+    // Class Level Variables - Protect the data
     private int menuId;
     private String menuItem;
 
-    //Constructor Method
+    // Constructor Method
     public Menu(int _menuId, String _menuItem){
         this.menuId = _menuId;
         this.menuItem = _menuItem;
     }
 
-    //Setters and Getters
+    // Setters and Getters
     public int getmenuId() { return menuId; }
     public void setmenuId(int _menuId) {this.menuId = _menuId;}
 
