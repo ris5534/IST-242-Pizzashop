@@ -35,5 +35,4 @@ public class Transaction {
             System.out.println("Payment Type: " + trans.getPaymentType());
         }
     }
-
 }
