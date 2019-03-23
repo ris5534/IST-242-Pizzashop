@@ -2,7 +2,7 @@ package edu.psu.ist;
 
 import java.util.ArrayList;
 
-enum PaymentType {cash, credit, check}
+enum PaymentType {cash, credit, check, mobile}
 
 public class Transaction {
 

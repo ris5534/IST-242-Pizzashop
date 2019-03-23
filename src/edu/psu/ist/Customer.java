@@ -31,5 +31,4 @@ public class Customer {
             System.out.println("Customer Phone:" + cust.getCustomerPhoneNumber());
         }
     }
-    
 }
