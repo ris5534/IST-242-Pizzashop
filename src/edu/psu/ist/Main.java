@@ -39,11 +39,13 @@ public class Main {
         Menu menu2 = new Menu(2, "Meat");
         Menu menu3 = new Menu(3, "Extra");
         Menu menu4 = new Menu(4, "Veg");
+        Menu menu5 = new Menu(5, "Supreme");
 
         mList.add(menu1);
         mList.add(menu2);
         mList.add(menu3);
         mList.add(menu4);
+        mList.add(menu5);
 
         oList.add(order1);
         tList.add(trans1);
