@@ -5,7 +5,7 @@ Purpose Details: Pizza ordering application
 Course: IST 242
 Author: Ronald Salguero
 Date Developed: 3/14/19
-Last Date Changed: 3/13/19
+Last Date Changed: 3/14/19
 Rev: None
  */
 
@@ -35,11 +35,14 @@ public class Main {
         Order order1 = new Order(1);
         Transaction trans1 = new Transaction(1, order1, PaymentType.cash);
 
-        Menu menu1 = new Menu(1, "Plain");
-        Menu menu2 = new Menu(2, "Meat");
-        Menu menu3 = new Menu(3, "Extra");
-        Menu menu4 = new Menu(4, "Veg");
-        Menu menu5 = new Menu(5, "Supreme");
+        Order order2 = new Order(2);
+        Transaction trans2 = new Transaction(2, order2, PaymentType.check);
+
+        Menu menu1 = new Menu(1, "Plain",10);
+        Menu menu2 = new Menu(2, "Meat",11);
+        Menu menu3 = new Menu(3, "Extra",12);
+        Menu menu4 = new Menu(4, "Veg",13);
+        Menu menu5 = new Menu(5, "Supreme",14);
 
         mList.add(menu1);
         mList.add(menu2);
@@ -60,7 +63,7 @@ public class Main {
                     break;
                 case MENU_CODE : Menu.listMenu(mList);
                     break;
-                case ORDE_CODE : //Order.addOrders();
+                case ORDE_CODE : // Order.addOrders(); Add this to Order class
                     break;
                 case TRAN_CODE : Transaction.listTransactions(tList);
                     break;
