@@ -7,7 +7,7 @@ Author: Ronald Salguero
 Date Developed: 3/14/19
 Last Date Changed: 3/14/19
 Rev: None
- */
+*/
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -17,6 +17,8 @@ public class Main {
     public static void main(String[] args) {
 
         Main main = new Main();
+
+        System.out.println ("Welcome to Ron's Pizza Shop!");
 
         final char EXIT_CODE = 'E';
         final char CUST_CODE = 'C';
@@ -38,17 +40,19 @@ public class Main {
         Order order2 = new Order(2);
         Transaction trans2 = new Transaction(2, order2, PaymentType.check);
 
-        Menu menu1 = new Menu(1, "Plain",10);
-        Menu menu2 = new Menu(2, "Meat",11);
-        Menu menu3 = new Menu(3, "Extra",12);
-        Menu menu4 = new Menu(4, "Veg",13);
-        Menu menu5 = new Menu(5, "Supreme",14);
+        Menu menu1 = new Menu(1,"Plain -",8);
+        Menu menu2 = new Menu(2,"Pepperoni -",9);
+        Menu menu3 = new Menu(2,"Meat -",10);
+        Menu menu4 = new Menu(3,"Extra cheese -",11);
+        Menu menu5 = new Menu(4,"Veggie -",12);
+        Menu menu6 = new Menu(5,"Supreme -",13);
 
         mList.add(menu1);
         mList.add(menu2);
         mList.add(menu3);
         mList.add(menu4);
         mList.add(menu5);
+        mList.add(menu6);
 
         oList.add(order1);
         tList.add(trans1);
