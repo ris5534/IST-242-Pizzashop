@@ -40,7 +40,8 @@ public class Main {
         Order order2 = new Order(2);
         Transaction trans2 = new Transaction(2, order2, PaymentType.check);
 
-        Menu menu1 = new Menu(1,"Plain -",8);
+        // Quantity?
+        Menu menu1 = new Menu(1,"Plain - $",8);
         Menu menu2 = new Menu(2,"Pepperoni -",9);
         Menu menu3 = new Menu(2,"Meat -",10);
         Menu menu4 = new Menu(3,"Extra cheese -",11);

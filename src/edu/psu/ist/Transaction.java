@@ -19,14 +19,24 @@ public class Transaction {
     }
 
     // Setters and Getters
-    public int getTransactionId() { return transactionId; }
-    public void setTransactionId(int _transactionId) {this.transactionId = _transactionId;}
-
-    public Order getOrder() { return order; }
-    public void setOrder(Order _order) {this.order = _order;}
-
-    public PaymentType getPaymentType() { return pType; }
-    public void setPaymentType(PaymentType _pType) {this.pType = _pType;}
+    public int getTransactionId() {
+        return transactionId;
+    }
+    public void setTransactionId(int _transactionId) {
+        this.transactionId = _transactionId;
+    }
+    public Order getOrder() {
+        return order;
+    }
+    public void setOrder(Order _order) {
+        this.order = _order;
+    }
+    public PaymentType getPaymentType() {
+        return pType;
+    }
+    public void setPaymentType(PaymentType _pType) {
+        this.pType = _pType;
+    }
 
     public static void listTransactions(ArrayList<Transaction> tList){
         for (Transaction trans: tList){

@@ -5,24 +5,42 @@ import java.util.Scanner;
 
 public class Customer {
     // Class Level Variables - Protect the data
-    private int customerId;
+    private int customerId = 0;
     private String customerName;
     private String customerPhoneNumber;
 
     //Constructor Method
+    public Customer(String _customerName, String _customerPhone) {
+        customerId++;
+        this.customerName = _customerName;
+        this.customerPhoneNumber = _customerPhone;
+    }
+
     public Customer(int _customerId) {
-        this. customerId = _customerId;  //Increments the ID count
+        this. customerId = _customerId++; //Increments the ID count
     }
 
     // Setters and Getters
-    public int getCustomerId() { return customerId; }
-    public void setCustomerId(int _customerId) {this.customerId = _customerId;}
+    public int getCustomerId() {
+        return customerId;
+    }
+    public void setCustomerId(int _customerId) {
+        this.customerId = _customerId;
+    }
 
-    public String getCustomerName() { return customerName; }
-    public void setCustomerName(String _customerName) {this.customerName = _customerName;}
+    public String getCustomerName() {
+        return customerName;
+    }
+    public void setCustomerName(String _customerName) {
+        this.customerName = _customerName;
+    }
 
-    public String getCustomerPhoneNumber() { return customerPhoneNumber; }
-    public void setCustomerPhoneNumber(String _customerPhoneNumber) {this.customerPhoneNumber = _customerPhoneNumber;}
+    public String getCustomerPhoneNumber() {
+        return customerPhoneNumber;
+    }
+    public void setCustomerPhoneNumber(String _customerPhoneNumber) {
+        this.customerPhoneNumber = _customerPhoneNumber;
+    }
 
     public static void printCustomer(ArrayList<Customer> cList){
         for (Customer cust: cList){

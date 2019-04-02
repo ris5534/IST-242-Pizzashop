@@ -9,12 +9,15 @@ public class Order {
     private ArrayList<Menu> menuItem;
 
     // Constructor Method
-    public Order(int _orderId){
+    public Order(int _orderId) {
         this.orderId = _orderId;
     }
 
     // Setters and Getters
-    public int getorderId() { return orderId; }
-    public void setorderId(int _orderId) {this.orderId = _orderId;}
-    
+    public int getorderId() {
+        return orderId;
+    }
+    public void setorderId(int _orderId) {
+        this.orderId = _orderId;
+    }
 }
