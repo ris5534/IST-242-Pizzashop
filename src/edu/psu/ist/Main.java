@@ -1,13 +1,14 @@
-package edu.psu.ist;
 /*
 Project: Lab 9
 Purpose Details: Pizza ordering application
 Course: IST 242
 Author: Ronald Salguero
-Date Developed: 3/14/19
-Last Date Changed: 3/14/19
+Date Developed: 3/17/19
+Last Date Changed: 3/17/19
 Rev: None
 */
+
+package edu.psu.ist;
 
 import java.util.ArrayList;
 import java.util.Scanner;
