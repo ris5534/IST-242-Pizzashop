@@ -15,7 +15,6 @@ public class Customer {
         this.customerName = _customerName;
         this.customerPhoneNumber = _customerPhone;
     }
-
     public Customer(int _customerId) {
         this. customerId = _customerId++; //Increments the ID count
     }
@@ -27,14 +26,12 @@ public class Customer {
     public void setCustomerId(int _customerId) {
         this.customerId = _customerId;
     }
-
     public String getCustomerName() {
         return customerName;
     }
     public void setCustomerName(String _customerName) {
         this.customerName = _customerName;
     }
-
     public String getCustomerPhoneNumber() {
         return customerPhoneNumber;
     }
